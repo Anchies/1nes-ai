@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1nes AI – Your helper</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>1nes AI</h1>
+            <p>Your job, task & coding assistant</p>
+        </header>
+
+        <div class="modes">
+            <button class="mode-btn active" data-mode="ideas">Ideas</button>
+            <button class="mode-btn" data-mode="tasks">Tasks</button>
+            <button class="mode-btn" data-mode="code">Code</button>
+        </div>
+
+        <textarea id="promptInput" placeholder="Tell 1nes AI what you need..."></textarea>
+        <button id="runBtn">Ask 1nes AI</button>
+
+        <div id="responseBox" class="response-box">
+            <p class="placeholder">Your response will appear here.</p>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
